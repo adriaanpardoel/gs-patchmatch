@@ -1,0 +1,14 @@
+{
+  "use_inpainting_prior": false,
+  "training_dataset": "/home/adriaan/gaussian-splatting/mipnerf360/room",
+  "point_cloud": "/home/adriaan/gaussian-splatting/models/room",
+  "mesh": "/home/adriaan/SuGaR/output/coarse_mesh/room/sugarmesh_3Dgs7000_densityestim02_sdfnorm02_level03_decim1000000.ply",
+  "flip_normals": true,
+  "inpainting_mask": {
+    "type": "sphere",
+    "center": [1.04475, 2.28064, 2.64032],
+    "radius": 0.55
+  },
+  "global_mask": null,
+  "render_cam": 0
+}

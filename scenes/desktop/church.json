@@ -1,0 +1,19 @@
+{
+  "use_inpainting_prior": false,
+  "training_dataset": "/home/adriaan/gaussian-splatting/church",
+  "point_cloud": "/home/adriaan/gaussian-splatting/output/church",
+  "mesh": "/home/adriaan/gaussian-splatting/church/church-fixed.ply",
+  "flip_normals": false,
+  "inpainting_mask": {
+    "type": "box",
+    "center": [-22.23, -7.70, 7.33],
+    "axis": [
+      [0.898794046299167, 0, 0.438371146789077],
+      [0, 1, 0],
+      [-0.438371146789077, 0, 0.898794046299167]
+    ],
+    "extent": [1.35, 1.50, 2.95]
+  },
+  "global_mask": null,
+  "render_cam": 125
+}

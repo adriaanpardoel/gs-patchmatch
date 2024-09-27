@@ -1,0 +1,27 @@
+{
+  "use_inpainting_prior": false,
+  "training_dataset": "/tudelft.net/staff-umbrella/3DGS Inpainting/bear",
+  "point_cloud": "/tudelft.net/staff-umbrella/3DGS Inpainting/output/bear",
+  "mesh": "/tudelft.net/staff-umbrella/3DGS Inpainting/SuGaR/output/coarse_mesh/bear/sugarmesh_3Dgs7000_densityestim02_sdfnorm02_level03_decim1000000.ply",
+  "inpainting_mask": {
+    "type": "box",
+    "center": [-0.5129, -1.0170, -0.5000],
+    "axis": [
+      [-0.8966, -0.4429,  0.0000],
+      [-0.4429,  0.8966,  0.0000],
+      [ 0.0000,  0.0000,  1.0000]
+    ],
+    "extent": [0.6092, 0.2453, 0.3850]
+  },
+  "global_mask": {
+    "type": "box",
+    "center": [-0.4996, -1.0439, -0.5000],
+    "axis": [
+      [-0.8966, -0.4429,  0.0000],
+      [-0.4429,  0.8966,  0.0000],
+      [ 0.0000,  0.0000,  1.0000]
+    ],
+    "extent": [1.4315, 0.5764, 0.9047]
+  },
+  "render_cam": 0
+}

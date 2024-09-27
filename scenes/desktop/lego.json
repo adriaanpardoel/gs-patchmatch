@@ -1,0 +1,19 @@
+{
+  "use_inpainting_prior": false,
+  "training_dataset": "/home/adriaan/gaussian-splatting/lego",
+  "point_cloud": "/home/adriaan/gaussian-splatting/output/lego",
+  "mesh": "/home/adriaan/SuGaR/output/coarse_mesh/lego/sugarmesh_3Dgs7000_densityestim02_sdfnorm02_level03_decim1000000.ply",
+  "flip_normals": true,
+  "inpainting_mask": {
+    "type": "box",
+    "center": [0, 0.33, -0.2],
+    "axis": [
+      [1, 0, 0],
+      [0, 1, 0],
+      [0, 0, 1]
+    ],
+    "extent": [0.47, 0.71, 0.3]
+  },
+  "global_mask": null,
+  "render_cam": 1
+}

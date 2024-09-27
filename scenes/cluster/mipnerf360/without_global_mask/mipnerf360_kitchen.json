@@ -1,0 +1,14 @@
+{
+  "use_inpainting_prior": false,
+  "training_dataset": "/tudelft.net/staff-umbrella/3DGS Inpainting/mipnerf360/kitchen",
+  "point_cloud": "/tudelft.net/staff-umbrella/3DGS Inpainting/pretrained-models/kitchen",
+  "mesh": "/tudelft.net/staff-umbrella/3DGS Inpainting/SuGaR/output/coarse_mesh/kitchen/sugarmesh_3Dgs7000_densityestim02_sdfnorm02_level03_decim1000000.ply",
+  "flip_normals": true,
+  "inpainting_mask": {
+    "type": "sphere",
+    "center": [-0.327073, 1.46985, 1.11916],
+    "radius": 1.2
+  },
+  "global_mask": null,
+  "render_cam": 0
+}

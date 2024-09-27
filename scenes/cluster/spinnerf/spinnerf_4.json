@@ -1,0 +1,13 @@
+{
+  "use_inpainting_prior": false,
+  "training_dataset": "/tudelft.net/staff-umbrella/3DGS Inpainting/spinnerf-dataset-training/4",
+  "point_cloud": "/tudelft.net/staff-umbrella/3DGS Inpainting/output/spinnerf/4",
+  "mesh": "/tudelft.net/staff-umbrella/3DGS Inpainting/SuGaR/output/coarse_mesh/4/sugarmesh_3Dgs7000_sdfestim02_sdfnorm02_level03_decim1000000.ply",
+  "flip_normals": true,
+  "inpainting_mask": {
+    "type": "images",
+    "path": "/tudelft.net/staff-umbrella/3DGS Inpainting/spinnerf-dataset-training/4/images_4/label"
+  },
+  "global_mask": null,
+  "render_cam": 0
+}

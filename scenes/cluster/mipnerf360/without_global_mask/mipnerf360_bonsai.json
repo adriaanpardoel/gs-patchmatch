@@ -1,0 +1,14 @@
+{
+  "use_inpainting_prior": false,
+  "training_dataset": "/tudelft.net/staff-umbrella/3DGS Inpainting/mipnerf360/bonsai",
+  "point_cloud": "/tudelft.net/staff-umbrella/3DGS Inpainting/pretrained-models/bonsai",
+  "mesh": "/tudelft.net/staff-umbrella/3DGS Inpainting/SuGaR/output/coarse_mesh/bonsai/sugarmesh_3Dgs7000_densityestim02_sdfnorm02_level03_decim1000000.ply",
+  "flip_normals": true,
+  "inpainting_mask": {
+    "type": "sphere",
+    "center": [0.3981, 1.4545, 1.512],
+    "radius": 1
+  },
+  "global_mask": null,
+  "render_cam": 0
+}

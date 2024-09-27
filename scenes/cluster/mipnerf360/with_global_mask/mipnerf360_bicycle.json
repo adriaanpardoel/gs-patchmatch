@@ -1,0 +1,18 @@
+{
+  "use_inpainting_prior": false,
+  "training_dataset": "/tudelft.net/staff-umbrella/3DGS Inpainting/mipnerf360/bicycle",
+  "point_cloud": "/tudelft.net/staff-umbrella/3DGS Inpainting/pretrained-models/bicycle",
+  "mesh": "/tudelft.net/staff-umbrella/3DGS Inpainting/SuGaR/output/coarse_mesh/bicycle/sugarmesh_3Dgs7000_densityestim02_sdfnorm02_level03_decim1000000.ply",
+  "flip_normals": true,
+  "inpainting_mask": {
+    "type": "sphere",
+    "center": [0.435715, 1.09237, 0.346608],
+    "radius": 1.9
+  },
+  "global_mask": {
+    "type": "sphere",
+    "center": [0.435715, 1.09237, 0.346608],
+    "radius": 5
+  },
+  "render_cam": 0
+}

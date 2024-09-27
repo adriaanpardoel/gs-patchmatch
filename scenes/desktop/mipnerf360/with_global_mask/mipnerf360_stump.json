@@ -1,0 +1,18 @@
+{
+  "use_inpainting_prior": false,
+  "training_dataset": "/home/adriaan/gaussian-splatting/mipnerf360/stump",
+  "point_cloud": "/home/adriaan/gaussian-splatting/models/stump",
+  "mesh": "/home/adriaan/SuGaR/output/coarse_mesh/stump/sugarmesh_3Dgs7000_densityestim02_sdfnorm02_level03_decim1000000.ply",
+  "flip_normals": true,
+  "inpainting_mask": {
+    "type": "sphere",
+    "center": [0, 0.961938, 0.273267],
+    "radius": 2.1
+  },
+  "global_mask": {
+    "type": "sphere",
+    "center": [0, 0.961938, 0.273267],
+    "radius": 4.2
+  },
+  "render_cam": 0
+}

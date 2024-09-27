@@ -1,0 +1,14 @@
+{
+  "use_inpainting_prior": false,
+  "training_dataset": "/tudelft.net/staff-umbrella/3DGS Inpainting/mipnerf360/garden",
+  "point_cloud": "/tudelft.net/staff-umbrella/3DGS Inpainting/pretrained-models/garden",
+  "mesh": "/tudelft.net/staff-umbrella/3DGS Inpainting/SuGaR/output/coarse_mesh/garden/sugarmesh_3Dgs7000_densityestim02_sdfnorm02_level03_decim1000000.ply",
+  "flip_normals": true,
+  "inpainting_mask": {
+    "type": "sphere",
+    "center": [0.34359, 2.57142, 1.62386],
+    "radius": 3.8
+  },
+  "global_mask": null,
+  "render_cam": 0
+}

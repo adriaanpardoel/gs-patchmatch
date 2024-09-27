@@ -1,0 +1,13 @@
+{
+  "use_inpainting_prior": false,
+  "training_dataset": "/home/adriaan/gaussian-splatting/spinnerf-dataset/trash",
+  "point_cloud": "/home/adriaan/gaussian-splatting/output/spinnerf/trash",
+  "mesh": "/home/adriaan/SuGaR/output/coarse_mesh/trash/sugarmesh_3Dgs7000_sdfestim02_sdfnorm02_level03_decim1000000.ply",
+  "flip_normals": true,
+  "inpainting_mask": {
+    "type": "images",
+    "path": "/home/adriaan/gaussian-splatting/spinnerf-dataset/trash/images_4/label"
+  },
+  "global_mask": null,
+  "render_cam": 0
+}

@@ -1,0 +1,18 @@
+{
+  "use_inpainting_prior": false,
+  "training_dataset": "/home/adriaan/gaussian-splatting/mipnerf360/kitchen",
+  "point_cloud": "/home/adriaan/gaussian-splatting/models/kitchen",
+  "mesh": "/home/adriaan/SuGaR/output/coarse_mesh/kitchen/sugarmesh_3Dgs7000_densityestim02_sdfnorm02_level03_decim1000000.ply",
+  "flip_normals": true,
+  "inpainting_mask": {
+    "type": "sphere",
+    "center": [-0.327073, 1.46985, 1.11916],
+    "radius": 1.2
+  },
+  "global_mask": {
+    "type": "sphere",
+    "center": [-0.327073, 1.46985, 1.11916],
+    "radius": 3
+  },
+  "render_cam": 0
+}

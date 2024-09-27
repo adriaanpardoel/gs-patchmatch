@@ -1,0 +1,14 @@
+{
+  "use_inpainting_prior": false,
+  "training_dataset": "/home/adriaan/rocks/dataset-rocks",
+  "point_cloud": "/home/adriaan/gaussian-splatting/output/rocks",
+  "mesh": "/home/adriaan/rocks/rocks.ply",
+  "flip_normals": false,
+  "inpainting_mask": {
+    "type": "sphere",
+    "center": [1.286, 5.309, 0.816],
+    "radius": 2
+  },
+  "global_mask": null,
+  "render_cam": 27
+}
