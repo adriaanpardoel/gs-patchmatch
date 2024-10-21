@@ -2,7 +2,8 @@
 
 This repository contains the code accompanying my master thesis "Patch-Based Inpainting of 3D Gaussian Splatting" done
 at the Computer Graphics and Visualisation research group at TU Delft.
-The thesis report can be found in the [TU Delft repository](https://repository.tudelft.nl/).
+The thesis report can be found in the
+[TU Delft repository](https://resolver.tudelft.nl/uuid:cf7e4835-1cbe-4964-83be-c9201c513f08).
 
 ## Abstract
 
